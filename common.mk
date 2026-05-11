@@ -285,6 +285,7 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
 # Logging
 SPAMMY_LOG_TAGS := \
+    BatteryDamageDetect \
     OplusTouchDaemon \
     vendor.qti.bluetooth@1.1-wake_lock \
     vendor.qti.bluetooth@1.1-ibs_handler \
